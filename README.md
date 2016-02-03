@@ -1,3 +1,3 @@
 #Blocbox
-##UX/UI project
-###Kelly Cutchen Talley
+**UX/UI project**
+Kelly Cutchen Talley
