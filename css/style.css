@@ -62,9 +62,6 @@ p {
     width:46%;
   }
 
-  header .hero img {
-    width: 85%;
-  }
 }
 
 @media (min-width: 992px) {
@@ -159,6 +156,7 @@ header .hero p {
 header .hero img {
   display: block;
   margin:3em auto 0;
+  max-width: 100%;
 }
 
 /* button styling */
@@ -172,3 +170,207 @@ header .hero img {
   border: 2px solid #632940;
   box-shadow: 0px 2px 0px 0px #481E2F;
 }
+
+/* benefits section */
+
+.benefits {
+  color: #fff;
+}
+
+.benefits h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.benefits i {
+  font-size: 48px;
+}
+
+.benefits p {
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 300;
+}
+
+.notes {
+  height: 500px;
+  background: #387490 url("../images/create-notes.png") right center no-repeat;
+}
+
+.notes-text {
+  width: 30%;
+  padding: 130px 0;
+}
+
+.images {
+  height: 500px;
+  background: #14b0ac url("../images/save-images.png") left center no-repeat;
+}
+
+.images-text {
+  width: 30%;
+  position: absolute;
+  text-align: right;
+  right: 0;
+  padding: 130px 0;
+}
+
+.links {
+  height: 500px;
+  background: #387490 url("../images/add-links.png") right center no-repeat;
+}
+
+.links-text {
+  width: 30%;
+  padding: 130px 0;
+}
+
+/* pricing section */
+
+.pricing {
+  background: #eeeded;
+  text-align: center;
+  padding:4em 0;
+}
+ 
+.pricing h2, .pricing p {
+  color:#000;
+}
+
+.pricing ul {
+  margin:0 auto;
+  padding:2em 0;
+}
+ 
+.pricing ul li {
+  list-style-type: none;
+}
+
+.box {
+  padding:0 15px 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+  min-height: 439px;
+  position: relative;
+  margin-top: 25px;
+}
+ 
+.box.middle {
+  min-height: 485px;
+  margin-top:0px;
+}
+
+.box h3 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  background: #387490;
+  left:0;
+  right:0;
+  top:0;
+  text-align: center;
+  margin:0 -15px 40px;
+  padding:10px 0;
+}
+
+.box h4 {
+  font-size:50px;
+  font-weight: bold;
+  margin:40px 0 10px;
+  color:#000;
+}
+
+.box h4 span {
+  font-size:32px;
+  vertical-align: top;
+}
+ 
+.box h4 span.month {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  color:#888888;
+  font-size:20px;
+  vertical-align: middle;
+}
+ 
+.box ul li {
+  font-size:18px;
+  margin-bottom:20px;
+  font-weight: 100;
+}
+
+.box .btn {
+  position:absolute;
+  bottom:20px;
+  left:20px;
+  right:20px;
+}
+
+.small {
+  font-size: 12px;
+  color: #FEFEFE;
+  line-height: 15px;
+  font-style:italic;
+}
+
+/* testimonials section */
+
+.testimonials {
+  background: url("../images/testimonials-bg.png") top center/cover no-repeat;
+  padding:4em 0;
+  text-align: center;
+  color: #fff;
+}
+
+.testimonials ul li {
+  list-style-type: none;
+}
+
+.testimonials li:nth-child(even) {
+  margin-top: 40px;
+}
+
+.testimonials blockquote {
+  text-align: left;
+  font-style: italic;
+  background:#387490;
+  position: relative;
+  padding:30px;
+  width:auto;
+  margin:0;
+}
+
+.testimonials blockquote:after {
+  top: 100%;
+  left: 13%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-top-color: #387490;
+  border-width: 10px;
+  margin-left: -10px;
+}
+
+.testimonials img {
+  height: 65px;
+  width: 65px;
+  border-radius:50%;
+  float: left;
+  display: inline-block;
+  margin:20px 10px 0 0;
+}
+
+.testimonials p.name {
+  float: left;
+  display: inline-block;
+  text-align: left;
+  font-size:13px;
+  margin-top: 30px;
+}
+
+
+
