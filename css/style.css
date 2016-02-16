@@ -428,9 +428,13 @@ footer .logo{
 }
 
 /* more media queries */
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   header .bb-logo {
     text-align: center;
+  }
+
+  header .nav-buttons {
+    margin-bottom: 0;
   }
 
   header nav ul {
@@ -441,7 +445,40 @@ footer .logo{
   }
 
   header .hero h1 {
-  font-size:40px;
+  font-size:36px;
+  margin-top: 50px;
+  }
+
+  header .hero p {
+    font-size: 18px;
+  }
+
+  .benefits .benefits-div {
+    height: 350px;
+  }
+
+  .notes {
+    background: linear-gradient(rgba(56, 116, 144, 0.75), rgba(56, 116, 144, 0.75)), url("../images/create-notes.png") right center/cover no-repeat;
+  }
+
+  .images {
+    background: linear-gradient(rgba(20, 176, 172, 0.75), rgba(20, 176, 172, 0.75)), url("../images/save-images.png") right center/cover no-repeat;
+  }
+
+  .links {
+    background: linear-gradient(rgba(56, 116, 144, 0.75), rgba(56, 116, 144, 0.75)), url("../images/add-links.png") right center/cover no-repeat;
+  }
+
+  .benefits .benefits-text {
+    position: relative;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 75px 0;
+  }
+
+  footer .copyright-block {
+    text-align: center;
   }
 }
 
